@@ -4,7 +4,7 @@ The next missing piece then would be the controller boards. While a few of the 8
 
 With the [Dazzler boards already successfully reproduced](https://forum.vcfed.org/index.php?threads/cromemco-dazzler-replica-project.77906), this seems like a great next project. I'll update this readme as the project progresses.
 
-The 'Original Images' folder contains pictures of the original board set that I've found on various site.
+The 'Original Images' folder contains pictures of the original board set that I've found on various sites.
 
 The 'Original Schematics' folder contains the original manual & schematics for the 88-CCC. I've combined the 2-page schematic into a single image for each board, making it much easier to reference.
 
