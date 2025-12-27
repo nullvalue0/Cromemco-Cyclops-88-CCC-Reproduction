@@ -19273,7 +19273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:R1206"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 291.084 129.794 90)
 			(effects
 				(font
@@ -19336,7 +19336,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1469"
+		(property "LCSC Part" ""
 			(at 290.83 130.81 0)
 			(effects
 				(font
@@ -20411,7 +20411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D9.5mm_P20.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D7.0mm_P25.00mm_Horizontal"
 			(at 540.7152 41.91 0)
 			(effects
 				(font
@@ -20481,7 +20481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
 			(at 58.42 73.66 0)
 			(effects
 				(font
@@ -21460,7 +21460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
 			(at 38.1 73.66 0)
 			(effects
 				(font
@@ -23325,7 +23325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D9.5mm_P20.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D7.0mm_P25.00mm_Horizontal"
 			(at 507.6952 41.91 0)
 			(effects
 				(font
@@ -24285,7 +24285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:R1206"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 350.266 94.234 90)
 			(effects
 				(font
@@ -24348,7 +24348,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1469"
+		(property "LCSC Part" ""
 			(at 349.25 93.98 0)
 			(effects
 				(font
@@ -25378,7 +25378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
 			(at 349.25 111.76 0)
 			(effects
 				(font
@@ -25745,7 +25745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:R1206"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 484.124 87.884 90)
 			(effects
 				(font
@@ -25808,7 +25808,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1469"
+		(property "LCSC Part" ""
 			(at 483.87 88.9 0)
 			(effects
 				(font
@@ -26728,7 +26728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-39-3"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 505.46 90.805 0)
 			(effects
 				(font
@@ -27073,7 +27073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
 			(at 99.06 73.66 0)
 			(effects
 				(font
@@ -27337,7 +27337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:R1206"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 291.084 119.634 90)
 			(effects
 				(font
@@ -27400,7 +27400,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1469"
+		(property "LCSC Part" ""
 			(at 290.83 120.65 0)
 			(effects
 				(font
@@ -27488,7 +27488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
 			(at 78.74 73.66 0)
 			(effects
 				(font
@@ -29526,7 +29526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
 			(at 68.58 73.66 0)
 			(effects
 				(font
@@ -33754,7 +33754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
 			(at 88.9 73.66 0)
 			(effects
 				(font
@@ -33833,7 +33833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
 			(at 27.94 73.66 0)
 			(effects
 				(font
@@ -34447,7 +34447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
 			(at 48.26 73.66 0)
 			(effects
 				(font
