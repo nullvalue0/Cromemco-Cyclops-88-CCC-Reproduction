@@ -17138,14 +17138,6 @@
 		(net 1)
 		(uuid "ef72ad1c-abe8-4130-b39c-a8d13232a8a3")
 	)
-	(via
-		(at 46.1 47.15)
-		(size 0.9)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(net 1)
-		(uuid "f7dabec0-afe0-42d1-b601-41876ef89806")
-	)
 	(segment
 		(start 100 47.15)
 		(end 127.75 47.15)
