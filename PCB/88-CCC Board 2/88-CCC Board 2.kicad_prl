@@ -59,15 +59,11 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "88-CCC Board 1.kicad_prl",
+    "filename": "88-CCC Board 2.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
-      false,
-      false,
-      false,
-      false,
       false,
       false,
       false,
@@ -89,27 +85,19 @@
       6,
       7,
       8,
-      9,
-      10,
-      11,
-      12,
-      13
+      9
     ],
     "col_widths": [
-      186,
-      171,
-      112,
-      79,
-      112,
-      112,
-      112,
-      83,
-      112,
-      112,
-      112,
-      112,
-      112,
-      112
+      162,
+      147,
+      91,
+      67,
+      91,
+      91,
+      91,
+      71,
+      91,
+      91
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

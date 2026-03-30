@@ -9959,6 +9959,12 @@
 		(uuid "30632c67-39e4-41a5-81a5-c19035de0434")
 	)
 	(junction
+		(at 412.75 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30bca01a-5735-4680-b1e6-7dbe2c77dcf8")
+	)
+	(junction
 		(at 77.47 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11824,16 +11830,6 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 123.19) (xy 412.75 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38459c50-0653-4373-afb7-5328044d3ef4")
-	)
-	(wire
-		(pts
 			(xy 133.35 334.01) (xy 133.35 350.52)
 		)
 		(stroke
@@ -12254,7 +12250,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 166.37) (xy 466.09 166.37)
+			(xy 382.27 166.37) (xy 412.75 166.37)
 		)
 		(stroke
 			(width 0)
@@ -15104,6 +15100,16 @@
 	)
 	(wire
 		(pts
+			(xy 412.75 166.37) (xy 466.09 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7e76393-bfb7-41cc-b59c-33913c61b762")
+	)
+	(wire
+		(pts
 			(xy 515.62 113.03) (xy 515.62 189.23)
 		)
 		(stroke
@@ -15441,6 +15447,16 @@
 			(type default)
 		)
 		(uuid "e6bd4e24-e091-4127-8d8f-bffe67bf266f")
+	)
+	(wire
+		(pts
+			(xy 412.75 123.19) (xy 412.75 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7100f3f-9c13-44dc-88e2-322194b142d8")
 	)
 	(wire
 		(pts
@@ -20538,7 +20554,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 161.29 384.81 0)
 			(effects
 				(font
@@ -20627,7 +20643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SW_DPDT_x2"
+		(property "Value" "Port Select"
 			(at 96.52 344.17 0)
 			(effects
 				(font
@@ -20701,7 +20717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f43f6c1-aec0-490f-9bfc-24d9556fb5c2")
-		(property "Reference" "SW35"
+		(property "Reference" "SW1"
 			(at 96.52 332.74 0)
 			(effects
 				(font
@@ -20745,27 +20761,27 @@
 			)
 		)
 		(pin "4"
-			(uuid "ed104ebe-836b-4123-b92c-f05ea6db60a4")
+			(uuid "ed104ebe-836b-4123-b92c-f05ea6db60a5")
 		)
 		(pin "1"
-			(uuid "210a2099-9104-41a5-b370-b1d9aeae5a69")
+			(uuid "210a2099-9104-41a5-b370-b1d9aeae5a6a")
 		)
 		(pin "3"
-			(uuid "b4f1d92c-6f68-40c3-bf64-176f81fb2177")
+			(uuid "b4f1d92c-6f68-40c3-bf64-176f81fb2178")
 		)
 		(pin "6"
-			(uuid "c3c3e5b6-67ae-4ffe-a1d5-1cc3d3c43f05")
+			(uuid "c3c3e5b6-67ae-4ffe-a1d5-1cc3d3c43f06")
 		)
 		(pin "5"
-			(uuid "38edc732-a8a2-4d70-b56e-a07a2367f053")
+			(uuid "38edc732-a8a2-4d70-b56e-a07a2367f054")
 		)
 		(pin "2"
-			(uuid "10b164b7-12fa-4de6-afc0-312fcc127054")
+			(uuid "10b164b7-12fa-4de6-afc0-312fcc127055")
 		)
 		(instances
 			(project ""
 				(path "/461ad1b3-df41-4c8f-89ba-1a25d4188f9a"
-					(reference "SW35")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -23196,7 +23212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 161.29 336.55 0)
 			(effects
 				(font
@@ -24923,7 +24939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-10_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 30.48 36.83 0)
 			(effects
 				(font
@@ -26254,7 +26270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:R1206"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 275.844 175.006 90)
 			(effects
 				(font
@@ -27419,7 +27435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 52.07 36.83 0)
 			(effects
 				(font
@@ -28293,10 +28309,10 @@
 			(uuid "f132ae7b-808e-4b9a-be03-8c484d745b2c")
 		)
 		(pin "1"
-			(uuid "210a2099-9104-41a5-b370-b1d9aeae5a6a")
+			(uuid "210a2099-9104-41a5-b370-b1d9aeae5a6b")
 		)
 		(pin "3"
-			(uuid "b4f1d92c-6f68-40c3-bf64-176f81fb2178")
+			(uuid "b4f1d92c-6f68-40c3-bf64-176f81fb2179")
 		)
 		(pin "6"
 			(uuid "c8aa3ecf-f02a-42ab-9527-d8d2003d23b1")
@@ -28305,7 +28321,7 @@
 			(uuid "df81ba45-1fef-43ed-8719-457e3e045253")
 		)
 		(pin "2"
-			(uuid "10b164b7-12fa-4de6-afc0-312fcc127055")
+			(uuid "10b164b7-12fa-4de6-afc0-312fcc127056")
 		)
 		(instances
 			(project "88-CCC Board 2"
@@ -28709,7 +28725,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "ed104ebe-836b-4123-b92c-f05ea6db60a4")
+			(uuid "ed104ebe-836b-4123-b92c-f05ea6db60a6")
 		)
 		(pin "1"
 			(uuid "df6075f9-14ad-4a71-a05d-fd96ee47205e")
@@ -28718,10 +28734,10 @@
 			(uuid "f1a6a4d3-8e78-48f7-97af-3f9eec87efad")
 		)
 		(pin "6"
-			(uuid "c3c3e5b6-67ae-4ffe-a1d5-1cc3d3c43f05")
+			(uuid "c3c3e5b6-67ae-4ffe-a1d5-1cc3d3c43f07")
 		)
 		(pin "5"
-			(uuid "38edc732-a8a2-4d70-b56e-a07a2367f053")
+			(uuid "38edc732-a8a2-4d70-b56e-a07a2367f055")
 		)
 		(pin "2"
 			(uuid "34739290-ed1b-449c-8457-b4cc4f3e917e")
@@ -28866,7 +28882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 73.66 36.83 0)
 			(effects
 				(font
@@ -28945,7 +28961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9dd46e3b-882f-403b-9dfc-480feb012c4b")
-		(property "Reference" "U1"
+		(property "Reference" "U36"
 			(at 284.7257 162.56 0)
 			(effects
 				(font
@@ -29033,7 +29049,7 @@
 		(instances
 			(project "88-CCC Board 2"
 				(path "/461ad1b3-df41-4c8f-89ba-1a25d4188f9a"
-					(reference "U1")
+					(reference "U36")
 					(unit 3)
 				)
 			)
@@ -29604,10 +29620,10 @@
 			(uuid "0c896f90-4cc9-444c-8175-b5ca948e2d7b")
 		)
 		(pin "1"
-			(uuid "210a2099-9104-41a5-b370-b1d9aeae5a6a")
+			(uuid "210a2099-9104-41a5-b370-b1d9aeae5a6c")
 		)
 		(pin "3"
-			(uuid "b4f1d92c-6f68-40c3-bf64-176f81fb2178")
+			(uuid "b4f1d92c-6f68-40c3-bf64-176f81fb217a")
 		)
 		(pin "6"
 			(uuid "9e71b90b-d535-426c-905c-b9d24f13a513")
@@ -29616,7 +29632,7 @@
 			(uuid "5d8411ca-ca07-45f9-812b-d1c1317d6dde")
 		)
 		(pin "2"
-			(uuid "10b164b7-12fa-4de6-afc0-312fcc127055")
+			(uuid "10b164b7-12fa-4de6-afc0-312fcc127057")
 		)
 		(instances
 			(project "88-CCC Board 2"
@@ -33998,72 +34014,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 412.75 140.97 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e65877aa-3633-43db-84a6-7df6b4904458")
-		(property "Reference" "#PWR028"
-			(at 412.75 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 412.496 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 412.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 412.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 412.75 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5461d6d3-1415-4f54-912f-791bbcb38e8e")
-		)
-		(instances
-			(project "88-CCC Board 2"
-				(path "/461ad1b3-df41-4c8f-89ba-1a25d4188f9a"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 242.57 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35171,16 +35121,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 412.75 137.16 0)
+		(at 410.21 160.02 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "f29304cb-2bad-48d1-852e-d6ef94326336")
 		(property "Reference" "R2"
-			(at 407.162 136.144 0)
+			(at 404.622 159.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35189,7 +35139,7 @@
 			)
 		)
 		(property "Value" "560"
-			(at 407.416 139.7 0)
+			(at 404.876 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35197,8 +35147,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:R1206"
-			(at 413.766 136.906 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 411.226 159.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35207,7 +35157,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1KR-102-5_C1469.html"
-			(at 412.75 137.16 0)
+			(at 410.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35216,7 +35166,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 412.75 137.16 0)
+			(at 410.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35225,7 +35175,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 412.75 137.16 0)
+			(at 410.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35234,7 +35184,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 412.75 137.16 0)
+			(at 410.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35243,7 +35193,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 412.75 137.16 0)
+			(at 410.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35252,7 +35202,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 412.75 137.16 0)
+			(at 410.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35261,7 +35211,7 @@
 			)
 		)
 		(property "LCSC Part" "C1469"
-			(at 412.75 137.16 0)
+			(at 410.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35270,7 +35220,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 412.75 137.16 0)
+			(at 410.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35279,7 +35229,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 412.75 137.16 0)
+			(at 410.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35288,7 +35238,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 412.75 137.16 0)
+			(at 410.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35297,7 +35247,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 412.75 137.16 90)
+			(at 410.21 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35452,7 +35402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-10_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 161.29 412.75 0)
 			(effects
 				(font
@@ -36336,7 +36286,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "ed104ebe-836b-4123-b92c-f05ea6db60a4")
+			(uuid "ed104ebe-836b-4123-b92c-f05ea6db60a7")
 		)
 		(pin "1"
 			(uuid "cbd5035e-bc79-4fe9-8fc4-f436206853b3")
@@ -36345,10 +36295,10 @@
 			(uuid "2d1a05a8-b06d-49d7-97c8-21a53a9bbe24")
 		)
 		(pin "6"
-			(uuid "c3c3e5b6-67ae-4ffe-a1d5-1cc3d3c43f05")
+			(uuid "c3c3e5b6-67ae-4ffe-a1d5-1cc3d3c43f08")
 		)
 		(pin "5"
-			(uuid "38edc732-a8a2-4d70-b56e-a07a2367f053")
+			(uuid "38edc732-a8a2-4d70-b56e-a07a2367f056")
 		)
 		(pin "2"
 			(uuid "5d81593e-53a1-4780-9f22-dc5ff92404c9")
