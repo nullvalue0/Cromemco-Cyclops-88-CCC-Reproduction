@@ -9,3 +9,5 @@ The 'Original Images' folder contains pictures of the original board set that I'
 The 'Original Schematics' folder contains the original manual & schematics for the 88 CCC. I've combined the 2-page schematic into a single image for each board, making it much easier to reference.
 
 The PCB folder will contain the reproduction Kicad files & gerbers for both S-100 boards.
+
+![88 CCC Reproduction Boards](88-CCC Reproduction PCBs.png)
